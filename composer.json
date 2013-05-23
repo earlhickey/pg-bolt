@@ -1,0 +1,29 @@
+{
+    "name": "earlhickey/pg-bolt",
+    "description": "ZF2 module with frontend logic for the Bolt CMS",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/earlhickey/pg-bolt",
+    "authors": [
+        {
+            "name": "Patrick Groot",
+            "email": "pgroot@gmail.com",
+            "homepage": "http://pg13.nl/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": ">=2.2",
+        "zf-commons/zfc-base": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PgBolt": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
